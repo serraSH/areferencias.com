@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  width: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.input_main {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  margin-top: 10px;
+  color:white;
+}
+
+.input_btn {
+  background-color: transparent;
+  color: aliceblue;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.textarea_main {
+  color: white;
+}
+
+.btn_signUp{
+  padding: 10px;
+}
+
+.style_ingresar {
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.rating_star{
+  color:#aae0ef;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+.rating_star:hover{
+  color:#ddff00
+}
+
+.selected_rating_star{
+  color:#ff5100;
+  cursor: pointer;
+  text-align: center;
+  margin: auto;
+}
+
+.selected_rating_star_2_3{
+  color:#ffcb30;
+  cursor: pointer;
+  text-align: center;
+}
+
+.selected_rating_star_4_5{
+  color:#39e816;
+  cursor: pointer;
+  text-align: center;
+}
+
+.comment_row{
+  width: 90%;
+  margin: auto;
+}
+
+.comments_card{
+  height: auto;
+  max-height: 150px;
+  max-width: 100%;
+  overflow-y: auto;
+  overflow-wrap: break-word;
+}
+
+.comment_text{
+  color: #282c34;
+}
+
+.logo_ar{
+  color: #90caf9;
+  padding: 2px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+.nav_styles{
+  background-color: #2196F3;
+}
+
+.company_comments_style{
+  color: #282c34;
+}
